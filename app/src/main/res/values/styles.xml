@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimary" tools:ignore="NewApi">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorPrimaryDark" tools:ignore="NewApi">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorAccent" tools:ignore="NewApi">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="actionModeBackground">@color/colorAccent</item>
+        <item name="android:actionModeBackground">@color/colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="selectableItemBackground">@drawable/selector_item_light</item>
+        <item name="android:selectableItemBackground">@drawable/selector_item_light</item>
+    </style>
+    <style name="AppPreferenceTheme" parent="AppTheme.Base">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionModeBackground">?attr/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Transperant" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.Transparent" parent="AppTheme.Transperant">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+    </style>
+
+    <style name="custom_preferenceTheme" parent="@style/PreferenceThemeOverlay.v14.Material">
+        <item name="android:listSeparatorTextViewStyle">@style/CustomListSeparatorTextView</item>
+        <item name="android:textAppearanceListItem">@style/Preference_TextAppearanceMaterialBody2</item>
+        <item name="android:activatedBackgroundIndicator">@style/selectableItemBackground</item>
+        <item name="android:background">#FFF7F7F7</item>
+    </style>
+
+    <style name="CustomListSeparatorTextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#525252</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:selectableItemBackground">@color/accent</item>
+    </style>
+
+    <style name="custom_preferenceStyle" parent="Preference">
+        <item name="android:textColor">#3399FF</item>
+        <item name="android:background">#3399ff</item>
+    </style>
+
+    <style name="Preference_TextAppearanceMaterialBody2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColor">#525252</item>
+    </style>
+
+    <style name="selectableItemBackground">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <style name="SmallText">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/txt_gray_light</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="MediumText">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/txt_gray</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="TextDate">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/txt_date</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ProgressBar.Horizontal" parent="Base.Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/bg_progressbar</item>
+    </style>
+</resources>

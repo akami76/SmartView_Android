@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:exitFadeDuration="@android:integer/config_longAnimTime"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_box_stroke_teal_on" android:state_pressed="true" />
+    <item android:drawable="@drawable/bg_box_stroke_teal_on" android:state_selected="true" />
+    <item android:drawable="@drawable/bg_box_stroke_teal_on" android:state_checked="true" />
+    <item android:drawable="@drawable/bg_box_stroke_teal" />
+</selector>

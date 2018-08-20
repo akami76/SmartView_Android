@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:checkable="false"
+            />
+        <item
+            android:id="@+id/nav_alarm"
+            android:checkable="false"
+            android:title="@string/alarm"
+            app:actionLayout="@layout/menu_counter"
+            />
+        <item
+            android:id="@+id/nav_settings"
+            android:checkable="false"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:checkable="false"
+            android:title="@string/logout" />
+        <item
+            android:id="@+id/nav_exit"
+            android:checkable="false"
+            android:title="@string/exit" />
+    </group>
+
+</menu>

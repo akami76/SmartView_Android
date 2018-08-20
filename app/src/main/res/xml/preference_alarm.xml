@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/key_push_on"
+        android:summaryOff="@string/alarm_push_on_description"
+        android:summaryOn="@string/alarm_push_on_description"
+        android:title="@string/push_on" />
+
+    <PreferenceCategory
+        android:key="@string/key_alarm_category"
+        android:title="@string/general_alarm"
+        app:layout="@layout/item_preference_category">
+        <!--<CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="@string/key_push_on"
+            android:key="@string/key_gw_error"
+            android:title="@string/gw_error"
+            android:summaryOff="@string/alarm_gw_error_description"
+            android:summaryOn="@string/alarm_gw_error_description"
+            />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="@string/key_push_on"
+            android:key="@string/key_system_cancel"
+            android:title="@string/system_cancel"
+            android:summaryOff="@string/alarm_system_cancel_description"
+            android:summaryOn="@string/alarm_system_cancel_description"
+            />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="@string/key_push_on"
+            android:key="@string/key_no_nearby"
+            android:title="@string/no_nearby"
+            android:summaryOff="@string/alarm_no_nearby_description"
+            android:summaryOn="@string/alarm_no_nearby_description"
+            />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="@string/key_push_on"
+            android:key="@string/key_concern_error"
+            android:title="@string/concern_error"
+            android:summaryOff="@string/alarm_concern_error_description"
+            android:summaryOn="@string/alarm_concern_error_description"
+            />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="@string/key_push_on"
+            android:key="@string/key_order_error"
+            android:title="@string/order_error"
+            android:summaryOff="@string/alarm_order_error_description"
+            android:summaryOn="@string/alarm_order_error_description"
+            />-->
+    </PreferenceCategory>
+</PreferenceScreen>

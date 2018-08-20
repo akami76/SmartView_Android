@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">스마트뷰</string>
+    <string name="sms_title_name">OTP 인증번호</string>
+    <string name="action_settings">설정</string>
+    <string name="action_refresh">새로고침</string>
+    <string name="action_copy_url">URL 복사</string>
+    <string name="message_copy_url">클립보드에 URL이 복사되었습니다.</string>
+
+
+    <string name="action_delete">삭제</string>
+    <string name="action_select_all">전체선택</string>
+    <!-- 공통 -->
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="close">닫기</string>
+
+    <!-- Network Error -->
+    <string name="network_error_000">네트워크 연결이 없습니다. 네트워크 상태를 확인하세요.</string>
+    <string name="network_error_001">서버 점검 중 입니다. 잠시 후 다시 실행해주세요.</string>
+    <string name="network_error_204">데이터가 존재하지 않습니다.(204)</string>
+    <string name="network_error_205">아이디 또는 비밀번호가 일치하지 않습니다.</string>
+    <string name="network_error_400">파라메터가 올바르지 않습니다.(400)</string>
+    <string name="network_error_401">세션이 유효하지 않습니다. 다시 로그인해 주세요(401)</string>
+    <string name="network_error_404">요청하신 서비스를 찾을 수 없습니다.(404)</string>
+    <string name="network_error_500">에러가 발생하였습니다. 잠시 후 다시 시도해 주십시오.(500)</string>
+    <string name="network_error_999">서버 점검중입니다.\n빠른 시일내로 다시 오픈하겠습니다.</string>
+    <string name="server_close">서버 점검중</string>
+    <string name="backkey_finish_message">\'뒤로\'버튼을 한번 더 누르시면 종료됩니다.</string>
+
+    <!-- Push 관련 -->
+    <string name="messageRecieved">Received message %1$s &lt;br/&gt; &lt;small&gt;Topic: %2$s &lt;/small&gt; </string>
+    <string name="toast_pub_success">Published message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_success">Subscribed to %1$s</string>
+    <string name="toast_disconnected">Disconnected</string>
+    <string name="toast_pub_failed">Failed to publish message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_failed">Failed to subscribe to %1$s</string>
+    <string name="connection_lost">%1$s has lost connection to %2$s</string>
+    <string name="failure_disconnect">Disconnect failed.&lt;br/&gt; &lt;small&gt;Reason: %s&lt;/small&gt; </string>
+    <string name="failure_connect">Client failed to connect.&lt;br/&gt; &lt;small&gt;Reason: %s&lt;/small&gt;</string>
+    <string name="client_connected">Client connected successfully</string>
+    <string name='dateFormat'>dd/MM/yy \'at\' HH:mm:ss</string>
+    <string name="timestamp">&lt;br/&gt; &lt;small&gt; %1$s &lt;/small&gt;</string>
+    <string name="connectedto">Connected to </string>
+    <string name="disconnected">Disconnected from</string>
+    <string name="no_status">Unknown connection status to</string>
+    <string name="connecting">Connecting to</string>
+    <string name="disconnecting">Disconnecting from</string>
+    <string name="connectionError">An error occurred connecting to</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="login">로그인</string>
+    <string name="prompt_id">아이디</string>
+    <string name="prompt_password">비밀번호</string>
+    <string name="prompt_otp_code">인증코드</string>
+    <string name="msg_stop_otp_process">인증코드 요청을 중지하시겠습니까?</string>
+    <string name="prompt_get_code">인증코드 요청</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="user_name">전재권님</string>
+    <string name="loged_in">로그인 되었습니다.</string>
+    <string name="settings">설정</string>
+    <string name="key_push_on">key_push_on</string>
+    <string name="key_gw_error">key_gw_error</string>
+    <string name="key_system_cancel">key_system_cancel</string>
+    <string name="key_no_nearby">key_no_nearby</string>
+    <string name="key_concern_error">key_concert_error</string>
+    <string name="key_order_error">key_order_error</string>
+    <string name="key_alarm_category">key_alarm_category</string>
+
+    <string name="push_on">푸시 사용</string>
+    <string name="alarm_push_on_description">푸시 알림을 사용합니다.</string>
+    <string name="gw_error">GW 에러</string>
+    <string name="alarm_gw_error_description">"게이트웨이 에러" 정보를 수신합니다.</string>
+    <string name="system_cancel">시스템 취소</string>
+    <string name="alarm_system_cancel_description">"시스템 취소" 정보를 수신합니다.</string>
+    <string name="no_nearby">원거리 없음</string>
+    <string name="alarm_no_nearby_description">"원거리없음" 정보를 수신합니다.</string>
+    <string name="concern_error">가맹점 계약오류</string>
+    <string name="alarm_concern_error_description">"가맹점 계약오류" 정보를 수신합니다.</string>
+    <string name="order_error">상품 거래오류</string>
+    <string name="alarm_order_error_description">"상품 거래오류" 정보를 수신합니다.</string>
+    <string name="general_alarm">알림 수신</string>
+    <string name="alarm">알림</string>
+    <string name="no_alarm">수신된 알림이 없습니다.</string>
+    <string name="no_items">목록이 없습니다.</string>
+    <string name="action_item_selected">%1$s개 선택됨</string>
+    <string name="msg_fail_delete_alarm">알림 삭제에 실패하였습니다.</string>
+    <string name="msg_success_delete_ok" formatted="false">%d개의 알림이 삭제되었습니다.</string>
+    <string name="msg_no_selected_alert">삭제할 알림을 선택해 주세요..</string>
+
+    <string name="delete">삭제</string>
+    <string name="share">공유</string>
+    <string name="exit">종료</string>
+    <string name="logout">로그아웃</string>
+    <string name="home">홈으로</string>
+
+    <string name="message_no_input_id">아이디를 입력해 주세요.</string>
+    <string name="message_no_input_passwd">비밀번호를 입력해 주세요.</string>
+    <string name="message_no_input_otp_code">인증코드를 입력해 주세요.</string>
+    <string name="message_otp_code_length_error">인증코드는 6자리 숫자로 구성되어야 합니다.</string>
+    <string name="login_progress">로그인하는 중...</string>
+    <string name="otp_progress">인증코드 요청하는 중...</string>
+    <string name="delete_progress">삭제하는 중...</string>
+    <string name="alarm_progress">알림 설정을 가져오는중...</string>
+    <string name="message_cannot_connect_network_error">네트워크 연결을 확인해 주세요.</string>
+
+    <string name="message_granted_sms_received">SMS수신 권한이 완료되었습니다.\n인증코드 요청을 다시 시도해 주세요.</string>
+    <string name="message_fail_granted_sms_received">SMS수신 권한이 있어야 인증코드를 요청할 수 있습니다..</string>
+
+    <string name="message_service_failed_login">로그인에 실패하였습니다.</string>
+    <string name="message_service_failed_request_otpcode">OTP코드 인증요청에 실패하였습니다.</string>
+    <string name="message_service_failed_settings">알림설정에 실패하였습니다.</string>
+
+    <string name="minute">분</string>
+    <string name="second">초</string>
+    <string name="save_userid">아이디 저장</string>
+</resources>

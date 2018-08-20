@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#257be5</color>
+    <color name="colorPrimaryDark">#0a6ede</color>
+    <color name="colorAccent">#80CBC4</color>
+    <color name="colorAccentDark">#26A69A</color>
+    <color name="accent">#0a6ede</color>
+    <color name="color_control_highlight">#4Df5f8fa</color>
+    <color name="list_choice_pressed_bg_light">#80cee8f9</color>
+
+    <color name="bg_color">#fcfdfd</color>
+    <color name="bg_divider">#e8e9e9</color>
+    <color name="bg_divider_trans">#4De8e9e9</color>
+    <color name="bg_divider_light">#f9f9f9</color>
+    <color name="bg_divider_light_dark">#f4f4f4</color>
+    <color name="bg_gray">#ededed</color>
+    <color name="bg_gray_light">#eaeaea</color>
+    <color name="bg_selected">#80cee8f9</color>
+    <color name="bg_blue_light">#d7dce3</color>
+    <color name="bg_blue_dark">#838990</color>
+    <color name="bg_gray_dark">#494b4e</color>
+    <color name="gray">#e4e4e4</color>
+    <color name="gray_dark">#888888</color>
+    <color name="gray_transparent">#33d7dce3</color>
+
+    <color name="txt_blue_dark">#465769</color>
+    <color name="txt_blue">#2e72c2</color>
+    <color name="txt_gray">#6d6d6d</color>
+    <color name="txt_gray_trans20">#336d6d6d</color>
+    <color name="txt_gray_light">#a4a4a4</color>
+    <color name="txt_gray_light_trans">#a4a4a4</color>
+    <color name="txt_date">#b7b7b7</color>
+    <color name="txt_red">#e51f1f</color>
+    <color name="txt_blue_rank">#2a5aa8</color>
+    <color name="txt_black_light">#212121</color>
+    <color name="txt_link">#3F51B5</color>
+    <color name="txt_tag">#295788</color>
+    <color name="txt_count">#cdd0d4</color>
+
+    <color name="btn_selected">#4898cc</color>
+    <color name="btn_disabled">#d7dce3</color>
+    <color name="bg_btn_gray_light">#dcdddd</color>
+
+    <color name="transparent_90_black">#E6000000</color>
+    <color name="transparent_80_black">#CC000000</color>
+    <color name="transparent_70_black">#B3000000</color>
+    <color name="transparent_60_black">#99000000</color>
+    <color name="transparent_50_black">#80000000</color>
+    <color name="transparent_40_black">#66000000</color>
+    <color name="transparent_30_black">#4D000000</color>
+    <color name="transparent_20_black">#33000000</color>
+    <color name="transparent_10_black">#1A000000</color>
+
+    <color name="transparent_90_white">#E6ffffff</color>
+    <color name="transparent_80_white">#CCffffff</color>
+    <color name="transparent_70_white">#B3ffffff</color>
+    <color name="transparent_60_white">#99ffffff</color>
+    <color name="transparent_50_white">#80ffffff</color>
+    <color name="transparent_40_white">#66ffffff</color>
+    <color name="transparent_30_white">#4Dffffff</color>
+    <color name="transparent_20_white">#33ffffff</color>
+    <color name="transparent_10_white">#1Affffff</color>
+
+    <color name="transparent_30_teal">#4D80CBC4</color>
+    <color name="transparent_30_blue">#4Da0caff</color>
+    <color name="transparent_30_gray">#4Dbdbdbd</color>
+    <color name="transparent_50_gray">#80bdbdbd</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="blue_overlay">#66607d8b</color>
+
+    <color name="linkify_color">#0000ee</color>
+    <color name="error_red">#e73032</color>
+
+    <color name="color_refresh_1">#26A69A</color>
+    <color name="color_refresh_2">#4DB6AC</color>
+    <color name="color_refresh_3">#80CBC4</color>
+    <color name="color_refresh_4">#B2DFDB</color>
+
+    <color name="label_text">#588cb3</color>
+    <color name="blue_gray_black">#B3444648</color>
+    <color name="blue_gray_black2">#8058606b</color>
+    <color name="bg_color_trans">#E6fcfdfd</color>
+
+    <color name="progress_bg">#f8bbd0</color>
+    <color name="progress_secondary">#f48fb1</color>
+    <color name="progress_progresstint">#f06292</color>
+    <color name="bg_toast_trans">#E5659102</color>
+
+</resources>

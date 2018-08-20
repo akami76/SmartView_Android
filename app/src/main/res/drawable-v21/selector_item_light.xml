@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight"
+    android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@color/list_choice_pressed_bg_light" />
+    <item>
+        <selector>
+            <item
+                android:drawable="@color/list_choice_pressed_bg_light"
+                android:state_activated="true" />
+        </selector>
+    </item>
+
+</ripple>
